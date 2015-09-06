@@ -21,7 +21,7 @@ Here is an example excerpt from my config:
 
     # plugins
     set -g @plugin 'tmux-plugins/tmux-battery'
-    set -g @plugin 'tmux-plugins/tmux-imap'
+    set -g @plugin 'gergap/tmux-imap'
     #set -g status-right 'Batt: #{battery_icon} #{battery_percentage} #{battery_remain} #[fg=green]#H#[default] %a %h-%d %H:%M '
     set -g status-right '#{mail_icon} Batt: #{battery_icon} #{battery_percentage} #{battery_remain} #[fg=green]#H#[default] %a %h-%d %H:%M '
     set -g status-right-length 60
