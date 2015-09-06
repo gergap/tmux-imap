@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+# IMAP configuration
+# Secure this file with chmod 600
+
+$host = "imap.youerserver.com";
+$port = 993;
+$user = "user.name";
+$pass = "your_password";
+$CA   = "path to CA cert file used by your server";
+
