@@ -42,3 +42,14 @@ Here is an example excerpt from my config:
     # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
     run '~/.tmux/plugins/tpm/tpm'
 
+## Requirements
+
+* Perl
+* Mail-IMAPClient perl module
+
+Installation depends on your distribution.
+
+Gentoo:
+
+    emerge dev-perl/Mail-IMAPClient
+
