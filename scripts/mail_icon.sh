@@ -16,7 +16,7 @@ print_icon() {
 }
 
 main() {
-    status=$(~/imap-check.pl) || status="N/A"
+    status=$(cat ~/imap-status.txt) || status="N/A"
     print_icon "$status"
 }
 

@@ -25,6 +25,11 @@ Now follow the instructions below to setup the IMAP plugin.
 
 This should output the number of unread mails.
 
+    # now add a cronjob for this task. This way we can higher status bar update frequency than imap poll frequency.
+    crontab -e
+
+    * * * * * ~/imap-check.pl > ~/imap-status.txt 2>/dev/null
+
 2.) Update your TMUX config:
 
 Here is an example excerpt from my config:
